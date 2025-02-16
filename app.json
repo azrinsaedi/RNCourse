@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "RNCourse",
+    "name": "My Recepie Book",
     "slug": "RNCourse",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -14,16 +14,24 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
+      "buildNumber": "1.0.0",
       "supportsTablet": true
     },
     "android": {
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.azrinsaedi.myrecipebook"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d57df4e5-b474-473d-80e3-acfddf065787"
+      }
     }
   }
 }
