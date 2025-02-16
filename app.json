@@ -23,6 +23,15 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "Allow RNCourse to access your camera"
+        }
+      ],
+      "expo-sqlite"
+    ]
   }
 }
